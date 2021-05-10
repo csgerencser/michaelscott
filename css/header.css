@@ -1,0 +1,54 @@
+header {
+    padding: 24px;
+    text-align: center;
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+header.headerback {
+    background: #222;
+}
+
+header nav {
+    display: none;
+}
+
+header nav.visible {
+    display: block;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 8px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
+    color: #fcfcfc;
+}
+
+header nav ul li:last-of-type {
+    margin-bottom: 0px;
+}
+
+header #navbutton {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    right: 16px;
+    top: 30px;
+}
+
+footer {
+    padding: 24px;
+    text-align: center;
+    background: #222;
+    color: #eee;
+}

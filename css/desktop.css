@@ -1,0 +1,48 @@
+header nav {
+    float: right;
+    display: block;
+    padding-top: 12px;
+}
+
+header #navbutton {
+    display: none;
+}
+
+header {
+width: 100vw;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header #logo {
+    float: left;
+}
+
+section.container {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+section.keyperson div.persons {
+    flex-direction: row;
+}
+
+section.visit .location {
+    flex-direction: row;
+}
+
+section.visit img {
+    width: 50%;
+}
+
+section.visit .location .address > :first-child {
+    font-size: 2rem;
+}
+
+section.visit .address p {
+    text-align: left;
+    margin-left: 24px;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,134 @@
+section.cover {
+    height: 100vh;
+    width: 100vw;
+}
+
+div.building {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 24px;
+    background: url('../images/building.jpg') no-repeat center center/cover;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+div.building::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000a6;
+    z-index: 2;
+}
+
+section.cover * {
+    z-index: 3;
+}
+
+section.cover h1 {
+    color: #fcfcfc;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+section.cover a {
+    padding: 8px 32px;
+    border: #fcfcfc 1px solid;
+    color: #fcfcfc;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+section.container {
+    padding: 32px;
+}
+
+section.container h2 {
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 24px;
+}
+
+section.container p {
+    line-height: 150%;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+section.container p.citation {
+    text-align: center;
+}
+
+section.container p.citation cite {
+    font-size: larger;
+    padding: 0 24px 0 24px;
+}
+
+section.our-method ul {
+    padding: 0 16px 0 24px;
+}
+
+section.keyperson div.persons {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.keyperson div.persons div.person {
+    text-align: center;
+    margin: 16px;
+}
+
+div.personaldetails p {
+    text-align: center;
+    margin: 4px;
+}
+
+section.keyperson img {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #bcbcbc;
+    border-radius: 16px;
+    background: #fff;
+}
+
+section.keyperson .name {
+    font-size: larger;
+}
+
+section.visit .location {
+    display: flex;
+    flex-direction: column;
+}
+
+section.visit img {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bcbcbc;
+    border-radius: 16px;
+    background: #fff;
+}
+
+section.visit .location .address {
+    margin: 16px 8px 8px 0;
+}
+
+section.visit .location .address > :first-child {
+    font-size: larger;
+    font-weight: 600;
+}
+
+section.visit .address p {
+    margin: 4px;
+    text-align: center;
+}
